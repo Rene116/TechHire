@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Registrarse | TechHire</title>
+
+    <link rel="stylesheet" href="registro.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="encabezado">
+
+        <a href="../index.html" class="logo">
+
+            <span class="logo-icono">
+                { }
+            </span>
+
+            <span class="logo-texto">
+                TechHire
+            </span>
+
+        </a>
+
+    </header>
+
+
+
+    <main class="contenedor-registro">
+
+
+        <section class="tarjeta-registro">
+
+
+            <div class="etiqueta">
+                CREA TU PERFIL
+            </div>
+
+
+            <h1>
+                Encuentra tu próximo rol tech.
+            </h1>
+
+
+            <p class="descripcion">
+                Completa tus datos para comenzar a descubrir oportunidades.
+            </p>
+
+
+
+            <form>
+
+
+                <!-- FILA 1 -->
+
+                <div class="fila-formulario">
+
+
+                    <div class="grupo-campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Alberto"
+                            required
+                        >
+
+                    </div>
+
+
+
+                    <div class="grupo-campo">
+
+                        <label for="apellido">
+                            Apellido
+                        </label>
+
+                        <input
+                            type="text"
+                            id="apellido"
+                            name="apellido"
+                            placeholder="González"
+                            required
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- DIRECCIÓN -->
+
+                <div class="grupo-campo">
+
+                    <label for="direccion">
+                        Dirección
+                    </label>
+
+                    <input
+                        type="text"
+                        id="direccion"
+                        name="direccion"
+                        placeholder="Ciudad, Estado"
+                    >
+
+                </div>
+
+
+
+                <!-- FILA 2 -->
+
+                <div class="fila-formulario">
+
+
+                    <!-- SUELDO -->
+
+                    <div class="grupo-campo">
+
+                        <label for="sueldo">
+                            Sueldo deseado
+                        </label>
+
+                        <input
+                            type="number"
+                            id="sueldo"
+                            name="sueldo"
+                            placeholder="$ 25,000"
+                        >
+
+                    </div>
+
+
+
+                    <!-- LICENCIATURA -->
+
+                    <div class="grupo-campo">
+
+                        <label for="licenciatura">
+                            Licenciatura
+                        </label>
+
+                        <input
+                            type="text"
+                            id="licenciatura"
+                            name="licenciatura"
+                            placeholder="Ing. en Sistemas"
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- SEXO -->
+
+                <div class="grupo-campo">
+
+                    <label for="sexo">
+                        Sexo
+                    </label>
+
+                    <select
+                        id="sexo"
+                        name="sexo"
+                    >
+
+                        <option value="">
+                            Selecciona una opción
+                        </option>
+
+                        <option value="masculino">
+                            Masculino
+                        </option>
+
+                        <option value="femenino">
+                            Femenino
+                        </option>
+
+                        <option value="otro">
+                            Otro
+                        </option>
+
+                        <option value="prefiero-no-decir">
+                            Prefiero no decirlo
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- CORREO -->
+
+                <div class="grupo-campo">
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="tu@correo.com"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- CONTRASEÑA -->
+
+                <div class="grupo-campo">
+
+                    <label for="contrasena">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="••••••••"
+                        required
+                    >
+
+                </div>
+
+
+
+                <button
+                    type="submit"
+                    class="boton-principal"
+                >
+                    CREAR CUENTA
+                </button>
+
+
+            </form>
+
+
+
+            <p class="iniciar-cuenta">
+
+                ¿Ya tienes cuenta?
+
+                <a href="../inicioSesion/iniciosesion.html">
+                    Inicia sesión
+                </a>
+
+            </p>
+
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>

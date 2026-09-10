@@ -1,0 +1,274 @@
+
+.pie-pagina {
+
+    width: 100%;
+
+    margin-top: 100px;
+
+    padding: 45px 0 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #061936,
+            #082652
+        );
+
+    border-top:
+        1px solid rgba(255,255,255,0.05);
+}
+
+/* CONTENIDO PRINCIPAL DEL FOOTER */
+
+.contenido-footer {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1.5fr
+        1fr
+        1fr
+        1fr
+        1.3fr;
+
+    gap: 55px;
+
+}
+
+
+/* COLUMNAS */
+
+.columna-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+
+/* TÍTULOS */
+
+.columna-footer h3 {
+
+    margin-bottom: 5px;
+
+    color: white;
+
+    font-size: 15px;
+
+}
+
+
+/* ENLACES */
+
+.columna-footer a {
+
+    color: #8fa4c8;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+
+}
+
+
+.columna-footer a:hover {
+
+    color: var(--color-verde);
+
+    transform: translateX(3px);
+
+}
+
+
+/* =========================================
+   MARCA
+========================================= */
+
+.logo-footer {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+.icono-logo {
+
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-verde);
+
+    color: #06213f;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+}
+
+
+.texto-logo {
+
+    color: var(--color-verde);
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+
+.marca-footer p {
+
+    margin-top: 10px;
+
+    color: #8fa4c8;
+
+    line-height: 1.5;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   REDES SOCIALES
+========================================= */
+
+.redes {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+.redes a {
+
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: rgba(255,255,255,0.04);
+
+    border:
+        1px solid rgba(255,255,255,0.08);
+
+    border-radius: 6px;
+
+    color: #8fa4c8;
+
+    font-size: 12px;
+
+}
+
+
+.redes a:hover {
+
+    color: var(--color-verde);
+
+    border-color:
+        rgba(46,230,166,0.4);
+
+}
+
+
+/* MENSAJE VERDE */
+
+.mensaje-footer {
+
+    margin-top: 40px;
+
+    color: var(--color-verde);
+
+    font-family: monospace;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   PARTE INFERIOR
+========================================= */
+
+.parte-inferior-footer {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: 40px auto 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #6f84aa;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .contenido-footer {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .contenido-footer {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .parte-inferior-footer {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+}
